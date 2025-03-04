@@ -25,4 +25,8 @@ function updateDisplay() {
     document.getElementById('sum').innerText = numbers.reduce((a, b) => a + b, 0);
     document.getElementById('highest').innerText = Math.max(...numbers);
     document.getElementById('lowest').innerText = Math.min(...numbers);
+
+    document.getElementById('sum').style.color = 'blue';
+    document.getElementById('highest').style.color = 'green';
+    document.getElementById('lowest').style.color = 'red';
 }
