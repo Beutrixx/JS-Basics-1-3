@@ -13,29 +13,23 @@
                 <label for="num1">Enter a Number:</label>
             </td>
             <td>
-                <input type="text" name="num1" id="num1" placeholder="">
+                <input type="text" name="num1" id="num1" placeholder="Enter a number">
             </td>
         </tr>
         <tr>
             <td></td>
             <td>
                 <button onclick="insert()">Insert</button>
-                <button onclick="delete()">Delete All</button>
+                <button onclick="deleteAll()">Delete All</button>
             </td>
         </tr>
     </table>
 
-
-
     <p style="font-weight: bold;">Numbers:</p>
     <p id="elements"></p>
-    <p>Sum:  <span id="num"></span></p>
-
-    <p id="elements"></p>
-    <p>Highest:  <span id="num"></span></p>
-
-    <p id="elements"></p>
-    <p>Lowest:  <span id="num"></span></p>
+    <p>Sum:  <span id="sum"></span></p>
+    <p>Highest:  <span id="highest"></span></p>
+    <p>Lowest:  <span id="lowest"></span></p>
 
     <script src="main.js"></script>
 </body>
